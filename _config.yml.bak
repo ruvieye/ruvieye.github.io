@@ -1,14 +1,12 @@
-#config
-
 title: ruvieye
-name: ruvieye site
+name: ruvieye
 email: ruvieye@gmail.com
 description: life is too short, develop the world.
 
 baseurl: ""
 url: ""
 
-display_footer: none  #change this to 'none' if you want to hide the footer copyright text
+display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
 
 parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
 parallax_image_two: assets/images/startup3.jpg
@@ -158,7 +156,7 @@ url: http://localhost:4000/ #the url of your site
 tag_manager_id: # This looks something like GTM-XXXXXXX
 google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
 
-cookies_banner: none # The value "show" will show the cookies banner, the value "none" will hide the banner.
+cookies_banner: show # The value "show" will show the cookies banner, the value "none" will hide the banner.
 
 cookie_accept_message: Thanks!
 
