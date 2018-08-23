@@ -1,7 +1,9 @@
 ---
 layout: page
-title: About
+title: About Me
+description: This is what I do.
 permalink: /about/
+background: '/img/bg-about.jpg'
 ---
 
 나는 누구인가
