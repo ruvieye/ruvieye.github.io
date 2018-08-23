@@ -1,7 +1,16 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
+gemspec
 
-#소스리파지토리로부터  지킬 테마 '클린블로그' 를 설치한다
-gem "jekyll-theme-clean-blog"
+gem "jekyll", "~> 3.6.0"
 
-#bundle install
-#bundle serve
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-paginate", "~> 1.1.0"
+end
+
+require 'rbconfig'
+  if RbConfig::CONFIG['target_os'] =~ /darwin(1[0-3])/i
+    gem 'rb-fsevent', '<= 0.9.4'
+  end
